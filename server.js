@@ -2,7 +2,7 @@ const htmlRoutes = require('./routes/htmlRoutes');
 const express = require('express');
 const app = express();
 const apiRoutes = require('./routes/apiRoutes');
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 3000;
 
 // Folder to retrieve CSS and JS Files
 app.use(express.static("public"));
